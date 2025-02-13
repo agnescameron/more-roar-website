@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<title>more roar</title>
+	</head>
+	<body>
+		<ul id="nav">
+			<li id="about">about</li>
+			<li id="listen">listen</li>
+			<li id="order">order</li>
+		</ul>
+
+		<div id="container">
+			<img id="hedgehog" src="hhg.bmp" />
+			<div id="more-roar">MORE ROAR!</div>
+		</div>
+
+		<div class="mousectl" id="aboutCtl" onmouseenter="showEl('about')"  onmouseleave="hideEl('about')" onclick="location.href='about.html'">
+		</div>
+		<div class="mousectl" id="listenCtl" onmouseenter="showEl('listen')"  onmouseleave="hideEl('listen')" onclick="location.href='listen.html'"> </div>
+		<div class="mousectl" id="orderCtl" onmouseenter="showEl('order')"  onmouseleave="hideEl('order')" onclick="location.href='order.html'"> </div>
+		<div class="mousectl" id="allCtl" onmouseenter="showAll()"  onmouseleave="hideAll()"> </div>
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>

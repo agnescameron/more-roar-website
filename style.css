@@ -1,0 +1,84 @@
+#hedgehog {
+	width: 800px;
+	height: auto;
+	margin-top: 100px;
+}
+
+.mousectl {
+	width: 190px;
+	height: 140px;
+	z-index: 1;
+/*	background-color: yellow;
+	opacity: 0.5;*/
+	position: fixed;
+}
+
+#aboutCtl {
+	left: 50px;
+	top: 100px;
+}
+
+#listenCtl {
+	left: 250px;
+	top: 100px;
+}
+
+#orderCtl {
+	left: 450px;
+	top: 150px;
+}
+
+#allCtl {
+	width: 300px;
+	height: 210px;
+	left: 110px;
+	top: 250px;
+}
+
+#nav {
+	list-style-type: none;
+}
+
+#nav li {
+	position: fixed;
+	width: 100px;
+	font-size: 2em;
+	display: none;
+}
+
+#about {
+	top: 80px;
+	left: 90px;
+	rotate: -10deg;
+}
+
+#listen {
+	top: 90px;
+	left: 310px;
+	rotate: 8deg;
+}
+
+#order {
+	top: 160px;
+	left: 530px;
+	rotate: 14deg;
+}
+
+.content {
+	max-width: 600px;
+	margin: 10px;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+}
+
+#more-roar {
+	font-size: 9em;
+	display: none;
+	z-index: 2;
+	margin-top: 300px;
+	margin-left: 100px;
+	line-height: 0.8em;
+}
