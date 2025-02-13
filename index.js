@@ -10,8 +10,10 @@ function hideEl(el_id) {
 
 function showAll() {
 	nav_ids.forEach(el_id => $('#' + el_id).show())
+	$("#hedgehog").attr("src","schematic.png");
 }
 
 function hideAll() {
 	nav_ids.forEach(el_id => $('#' + el_id).hide())
+	$("#hedgehog").attr("src","hhg.bmp");
 }

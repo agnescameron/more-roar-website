@@ -82,6 +82,7 @@
 	flex-wrap: wrap;
 	width: 98vw;
 	row-gap: 50px;
+	align-items: center;
 }
 
 #more-roar {
