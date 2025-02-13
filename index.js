@@ -17,3 +17,8 @@ function hideAll() {
 	nav_ids.forEach(el_id => $('#' + el_id).hide())
 	$("#hedgehog").attr("src","hhg.bmp");
 }
+
+function swapSrc() {
+	if ($("#hedgehog").attr("src") === "hhg.bmp") $("#hedgehog").attr("src","schematic.png");
+	else $("#hedgehog").attr("src","hhg.bmp");
+}
