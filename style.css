@@ -98,18 +98,19 @@
 	#hedgehog {
 		width: 90vw;
 		height: auto;
-		margin-top: 100px;
+		margin-top: 120px;
 	}
 
 	#nav li {
 		display: block;
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	#container {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		align-items: revert;
 	}
 
 	#more-roar {
