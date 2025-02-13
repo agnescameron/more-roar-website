@@ -111,11 +111,15 @@
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: revert;
+		justify-content: left;
 	}
 
 	#more-roar {
 		font-size: 6em;
 		display: block;
+		margin-left: 20px;
+		width: 90vw;
+		margin-top: 50px;
 	}
 
 	#about {
