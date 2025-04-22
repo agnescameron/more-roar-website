@@ -10,15 +10,15 @@ function hideEl(el_id) {
 
 function showAll() {
 	nav_ids.forEach(el_id => $('#' + el_id).show())
-	$("#hedgehog").attr("src","schematic.png");
+	$("#hedgehog").attr("src","/assets/img/schematic.png");
 }
 
 function hideAll() {
 	nav_ids.forEach(el_id => $('#' + el_id).hide())
-	$("#hedgehog").attr("src","hhg.bmp");
+	$("#hedgehog").attr("src","/assets/img/hhg.bmp");
 }
 
 function swapSrc() {
 	if ($("#hedgehog").attr("src") === "hhg.bmp") $("#hedgehog").attr("src","schematic.png");
-	else $("#hedgehog").attr("src","hhg.bmp");
+	else $("#hedgehog").attr("src","/assets/img/hhg.bmp");
 }
