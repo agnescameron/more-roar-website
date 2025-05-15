@@ -94,6 +94,10 @@
 	width: 500px;
 }
 
+.page-img {
+	width: 80%;
+}
+
 @media screen and (max-width: 600px) {
 	#hedgehog {
 		width: 90vw;
