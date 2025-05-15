@@ -118,16 +118,11 @@
 	z-index: 2;
 }
 
-/*.italic:hover {
-	font-style: italic;
-}*/
-
 
 @media screen and (max-width: 600px) {
 	#hedgehog {
 		width: 90vw;
 		height: auto;
-		margin-top: 120px;
 	}
 
 	#hhgCtl {
@@ -148,28 +143,27 @@
 	}
 
 	#more-roar {
-		font-size: 6em;
+		font-size: 5em;
 		display: block;
-		margin-left: 20px;
+		margin-left: 10px;
 		width: 90vw;
-		margin-top: 50px;
 	}
 
 	#about {
-		top: 100px;
+		top: 200px;
 		left: 20px;
 		rotate: -10deg;
 	}
 
 	#listen {
-		top: 110px;
-		left: 150px;
+		top: 210px;
+		left: 130px;
 		rotate: 8deg;
 	}
 
 	#order {
-		top: 150px;
-		left: 270px;
+		top: 250px;
+		left: 230px;
 		rotate: 16deg;
 	}
 
