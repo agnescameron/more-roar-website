@@ -9,12 +9,12 @@ function hideEl(el_id) {
 }
 
 function showAll() {
-	nav_ids.forEach(el_id => $('#' + el_id).show())
+	// nav_ids.forEach(el_id => $('#' + el_id).show())
 	$("#hedgehog").attr("src","/assets/img/schematic.png");
 }
 
 function hideAll() {
-	nav_ids.forEach(el_id => $('#' + el_id).hide())
+	// nav_ids.forEach(el_id => $('#' + el_id).hide())
 	$("#hedgehog").attr("src","/assets/img/hhg.bmp");
 }
 

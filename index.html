@@ -22,15 +22,9 @@
 		</ul>
 
 		<div id="container">
-			<img id="hedgehog" src="/assets/img/hhg.bmp" onclick="swapSrc()" />
 			<div id="more-roar">MORE ROAR!</div>
+			<img id="hedgehog" src="/assets/img/hhg.bmp" onclick="swapSrc()" onmouseenter="showAll()"  onmouseleave="hideAll()"/>
 		</div>
-
-		<div class="mousectl" id="aboutCtl" onmouseenter="showEl('about')"  onmouseleave="hideEl('about')" onclick="location.href='about.html'">
-		</div>
-		<div class="mousectl" id="listenCtl" onmouseenter="showEl('listen')"  onmouseleave="hideEl('listen')" onclick="location.href='listen.html'"> </div>
-		<div class="mousectl" id="orderCtl" onmouseenter="showEl('order')"  onmouseleave="hideEl('order')" onclick="location.href='order.html'"> </div>
-		<div class="mousectl" id="allCtl" onmouseenter="showAll()"  onmouseleave="hideAll()"> </div>
 	</body>
 	<script type="text/javascript" src="index.js"></script>
 </html>
