@@ -63,17 +63,11 @@
 	font-size: 6em;
 	z-index: 2;
 	line-height: 0.8em;
+	width: auto;
 }
 
 .page-img {
 	width: 80%;
-}
-
-#hedgehog {
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
 }
 
 .italic {
@@ -85,27 +79,6 @@
 
 .italic:hover {
 	text-decoration:underline;
-}
-
-#about:hover {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
-
-#listen:hover {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    transform: rotate(10deg);
-}
-
-#order:hover {
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    transform: rotate(-20deg);
 }
 
 #hhgCtl {
@@ -121,7 +94,7 @@
 
 @media screen and (max-width: 600px) {
 	#hedgehog {
-		width: 90vw;
+		width: 350px;
 		height: auto;
 	}
 

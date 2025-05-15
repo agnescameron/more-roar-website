@@ -9,8 +9,11 @@ function hideEl(el_id) {
 }
 
 function showAll() {
-	// nav_ids.forEach(el_id => $('#' + el_id).show())
+	console.log('uhh')
 	$("#hedgehog").attr("src","/assets/img/schematic.png");
+	if($("#more-roar").text().length < 20){
+		$("#more-roar").text($("#more-roar").text() + "!");
+	}
 }
 
 function hideAll() {
